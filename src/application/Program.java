@@ -17,7 +17,7 @@ public class Program {
         List<ChessPiece> captured = new ArrayList<>();
 
         while(true) {
-            try {
+             try {
                 UI.clearScreen();
                 UI.printMatch(cm,captured);
                 System.out.println();
